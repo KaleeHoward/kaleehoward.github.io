@@ -1,0 +1,20 @@
+body {
+  background-color: rgb(101, 85, 116);
+}
+h1 {
+  color: rgb(42, 1, 48);
+}
+p {
+  color: rgb(24, 17, 22);
+}
+
+a:link {
+    color: rgb(57, 4, 73)
+}
+
+img {
+  display: block;
+  margin: auto;
+  height: 300px;
+  width: 300px;
+}
