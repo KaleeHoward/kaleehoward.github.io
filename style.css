@@ -2,51 +2,95 @@ body {
   background-color: rgb(101, 85, 116);
   font-family: Helvetica, Arial, sans-serif;
 }
-h1 {
-  color: rgb(42, 1, 48);
-}
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #4e4355;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h1,
+        h2 {
+            color: #271a27;
+            line-height: 1.0;
+        }
+         h4,
+         h5 {
+            color: #271a27;
+            line-height: 0.5;
+         }
+        .header {
+            text-align: center;
+        }
+        .header h1 {
+            margin: 10px 0;
+        }
+        .contact {
+            margin: 10px 0;
+            font-size: 14px;
+        }
+        .contact a {
+            color: #9c20d1;
+            text-decoration: none;
+        }
+        .section {
+            margin: 20px 0;
+        }
+        .section h2 {
+            margin-bottom: 10px;
+            border-bottom: 2px solid #260535;
+            padding-bottom: 5px;
+        }
+        .item {
+            margin-bottom: 15px;
+        }
+        .item h3 {
+            margin: 0;
+            font-size: 18px;
+            color: #271a27;
+        }
+        .item p {
+            margin: 5px 0;
+            font-size: 14px;
+        }
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills ul li {
+            display: inline-block;
+            background: #453453;
+            color: #fff;
+            padding: 5px 10px;
+            margin: 5px 5px 5px 0;
+            border-radius: 4px;
+        }
 p {
   color: rgb(24, 17, 22);
 }
-
-article {
-  color: rgb(61, 42, 66);
-  background-color: rgb(116, 107, 126);
-  margin-left: 250px;
-  margin-right: 250px;
-}
-
 a:link {
     color: rgb(57, 4, 73)
 }
-
 img {
   display: block;
   margin: auto;
   height: 300px;
   width: 300px;
 }
-.column {
-  float: left;
-  width: 50%;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 page-container {
   position: absolute;
   min-height: 100vh;
 }
-
-content-wrap {
-  padding-bottom: 10rem;
-  break-after: column;    
-}
-
 footer {
   position: relative;
   bottom: 0;
