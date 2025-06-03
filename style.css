@@ -9,7 +9,7 @@ body {
             margin: 0;
             padding: 0;
             color: #333;
-            background-color: #4e4355;
+            background-color: #574c5e;
         }
         .container {
             max-width: 800px;
@@ -19,10 +19,14 @@ body {
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
-        h1,
+        h1 {
+            color: #141018;
+            text-shadow: 2px 4px 30px rgb(101, 8, 145);
+        }
         h2 {
             color: #271a27;
             line-height: 1.0;
+            text-shadow: 2px 4px 20px rgb(101, 8, 145);
         }
          h4,
          h5 {
@@ -66,6 +70,7 @@ body {
         .skills ul {
             list-style: none;
             padding: 0;
+            text-align: center;
         }
         .skills ul li {
             display: inline-block;
@@ -79,7 +84,7 @@ p {
   color: rgb(24, 17, 22);
 }
 a:link {
-    color: rgb(57, 4, 73)
+    color: rgb(49, 2, 61)
 }
 img {
   display: block;
