@@ -62,6 +62,7 @@ body {
         .item h3 {
             margin: 0;
             font-size: 18px;
+            line-height: 1.2;
             color: #271a27;
         }
         .item p {
