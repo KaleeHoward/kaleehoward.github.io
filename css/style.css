@@ -3,6 +3,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
@@ -28,17 +29,19 @@ body {
         h2 {
             color: #271a27;
             text-shadow: 2px 4px 20px rgb(101, 8, 145);
+            line-height: 1.5;
         }
          h3 {
             color: #271a27;
             line-height: 0.2;
          }
 
+
          h4 {
             color:#271a27;
             text-shadow: 2px 4px 20px rgb(101, 8, 145);
             text-align: center;
-            line-height: 0.2;
+            line-height: 1.0;
          }
         .header {
             text-align: center;
@@ -51,7 +54,7 @@ body {
             font-size: 14px;
         }
         .contact a {
-            color: #9c20d1;
+            color: #331241;
             text-decoration: none;
         }
         .section {
@@ -104,7 +107,7 @@ p {
 
 
 a:link {
-    color: rgb(55, 42, 58)
+    color: rgb(65, 5, 78)
 }
 img {
   display: block;
