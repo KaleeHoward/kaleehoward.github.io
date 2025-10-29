@@ -20,6 +20,14 @@ body {
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
+        .repo-container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
         h1 {
             color: #141018;
             text-shadow: 2px 4px 30px rgb(101, 8, 145);
@@ -94,6 +102,16 @@ body {
             margin: 5px 5px 5px 0;
             border-radius: 4px;
         }
+
+.repo-card {
+      display: inline-block;
+            box-shadow: 2px 4px 10px rgb(101, 8, 145);
+            background: #453453;
+            color: #fff;
+            padding: 5px 10px;
+            margin: 5px 5px 5px 0;
+            border-radius: 4px;
+}
 p {
   color: rgb(24, 17, 22);
   font-size: 14px;
