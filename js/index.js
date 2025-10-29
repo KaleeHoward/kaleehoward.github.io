@@ -1,6 +1,10 @@
-const express = require("express");
-const app = express();
+    const express = require('express');
+    const app = express();
+    const PORT = 8080;
 
+    app.listen(PORT, () => {
+      console.log(`Express server running at http://localhost:${PORT}/`);
+    });
 
 async function getGithubRepos(username) {
   const response = await fetch(`https://api.github.com/users/KaleeHoward/repos`);
