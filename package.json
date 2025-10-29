@@ -1,0 +1,23 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "This repo is meant for practicing html and css by curating a virtual Resume.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaleeHoward/Resume.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KaleeHoward/Resume/issues"
+  },
+  "homepage": "https://github.com/KaleeHoward/Resume#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
